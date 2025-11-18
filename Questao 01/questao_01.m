@@ -33,8 +33,7 @@ disp(['R² = ', num2str(R2)]);
 
 R2_text = ['R² = ', num2str(R2)];
 
-annotation('textbox', [0.70, 0.80, 0.25, 0.10],
-           'String', R2_text,
+annotation('textbox', [0.70, 0.80, 0.25, 0.10], 'String', R2_text,
            'FontSize', 20,
            'FontWeight', 'bold',
            'HorizontalAlignment', 'right',
